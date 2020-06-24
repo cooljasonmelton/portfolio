@@ -10,14 +10,14 @@ export default class Navbar extends Component {
     const { activeItem } = this.state
 
     return (
-      <div>
+      <div className="nav">
         <Menu pointing secondary>
           <Menu.Item
             name='jason melton'
             active={activeItem === 'jason melton'}
             onClick={this.handleItemClick}
             style={{fontWeight: '900'}}
-          />
+          />       
         <Menu.Menu position='right'>
           <Menu.Item 
             name='projects'
