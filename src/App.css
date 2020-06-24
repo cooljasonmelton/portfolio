@@ -1,0 +1,23 @@
+* {
+    font-family: monospace;
+}
+
+div.ui.pointing.secondary.menu{
+    font-size: 1.5rem;
+}
+
+.nav-small{
+    display: none;
+}
+
+@media screen and (max-width: 44em) {
+    .nav{
+        display: none;
+
+    }
+    .nav-small{
+        display: block;
+    }
+
+
+}
