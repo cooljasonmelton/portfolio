@@ -1,10 +1,20 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
+import { withRouter } from 'react-router-dom'
 
-export default class Navbar extends Component {
+class Navbar extends Component {
   state = { activeItem: 'home' }
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+  handleItemClick = (e, { name }) => {
+    this.setState({ activeItem: name })
+
+    if (name === 'jason melton') {
+      return this.props.history.push('/')
+    } else {
+      this.props.history.push(`${name}`)
+    }
+
+  }
 
   render() {
     const { activeItem } = this.state
@@ -45,3 +55,5 @@ export default class Navbar extends Component {
     )
   }
 }
+
+export default withRouter(Navbar)
