@@ -8,7 +8,7 @@ div.ui.segment.landing{
 
 div.ui.segment.landing-box{
     height: 80%;
-    width: 20em;
+    width: 25em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -16,6 +16,7 @@ div.ui.segment.landing-box{
     padding: 10px;
     margin: 20px;
 }
+
 img{
     align-self: center;
 }
@@ -41,7 +42,17 @@ div.ui.segment > h1, div.ui.segment > h3 {
         width: 90vw;
         display: flex;
     }
+}
 
 
+/* ABOUT SPECIFIC CSS */
+
+.about-text{
+    overflow: scroll;
+    text-align: left;
+    text-indent: 10%;
 
 }
+
+
+
