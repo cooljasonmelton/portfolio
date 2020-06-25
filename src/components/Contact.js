@@ -9,16 +9,16 @@ function Contact() {
     <Segment className="landing">
       <Segment className="landing-box"> 
         <div className="contact-info">
-          <a href="" className='contact-link'>
+          <a href="mailto:jason.melton2@gmail.com" className='contact-link'>
             <h1>email<Icon name='mail outline'/></h1>
           </a>
-          <a href="" className='contact-link'>
+          <a href="https://github.com/cooljasonmelton" className='contact-link'>
             <h1>github<Icon name='github square'/></h1>
           </a>
-          <a href="" className='contact-link'>
+          <a href="https://www.linkedin.com/in/-jasonmelton/" className='contact-link'>
             <h1>linkedin<Icon name='linkedin square'/></h1>
           </a>
-          <a href="" className='contact-link'>
+          <a href="https://medium.com/@jasonmelton_" className='contact-link'>
             <h1>blog <Icon name='medium'/></h1>
           </a>    
         </div>
