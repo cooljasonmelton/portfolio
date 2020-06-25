@@ -27,17 +27,17 @@ div.ui.segment > h1, div.ui.segment > h3 {
 
 @media screen and (max-width: 44em) {
     div.ui.segment.landing{
+        height: 200vh;
+        position: relative;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-content: center;
         flex-direction: column;
-        height: 100vh;
         padding: 0;
         margin: 0;
 
     }
     div.ui.segment.landing-box{
-        align-self: center;
         padding: 10px;
         width: 90vw;
         display: flex;
