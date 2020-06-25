@@ -27,7 +27,8 @@ div.ui.segment > h1, div.ui.segment > h3 {
 
 @media screen and (max-width: 44em) {
     div.ui.segment.landing{
-        height: 200vh;
+        height: auto;
+        max-height: 200vh;
         position: relative;
         display: flex;
         justify-content: flex-end;
@@ -39,11 +40,10 @@ div.ui.segment > h1, div.ui.segment > h3 {
     }
     div.ui.segment.landing-box{
         padding: 10px;
-        width: 90vw;
+        width: 100%;
         display: flex;
     }
 }
-
 
 /* ABOUT SPECIFIC */
 
@@ -51,6 +51,14 @@ div.ui.segment > h1, div.ui.segment > h3 {
     overflow: scroll;
     text-align: left;
     text-indent: 10%;
+    padding: 1.5em;
+}
+.about-text > p{
+    line-height: 2em;
+}
+
+.about-title{
+    padding-top: 1em;
 }
 
 /* CONTACT SPECIFIC */
@@ -70,7 +78,7 @@ div.ui.segment > h1, div.ui.segment > h3 {
     text-indent: 1em;
 }
 
-/* BLOG SPECIFIC */
+/* BLOG SPECIFIC  */
 
 .blog-segment{
     display: flex;
@@ -84,7 +92,11 @@ div.ui.segment > h1, div.ui.segment > h3 {
     display: flex;
     flex-direction: column;
     overflow: scroll;
+}
 
+.blog-segment > h1{
+    font-family: monospace;
+    padding: 1em;
 }
 
 .blog-image > h1{
@@ -99,7 +111,47 @@ div.ui.segment > h1, div.ui.segment > h3 {
 
 @media screen and (max-width: 44em) {
     .blog-container{
-        width:100%;
+        width: 100%;
     }
 }
 
+/* PROJECT SPECIFIC */
+
+.proj-segment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-segment > h1{
+    padding: 1em;
+}
+
+.proj-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+    column-gap: 2em;
+    row-gap: 0em;
+}
+.proj-image{
+    place-content: stretch;
+}
+
+.proj-image:hover{
+    opacity: 0.8;
+}
+
+
+
+@media screen and (max-width: 44em) {
+    .proj-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
