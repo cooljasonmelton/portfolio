@@ -4,10 +4,12 @@ import { Dropdown, Menu, Segment } from 'semantic-ui-react'
 const NavbarSmall = () => (
   <div className="nav-small">
       <Menu>
-        <Menu.Item>
+        <Menu.Item
+          style={{fontWeight: '900'}}
+        >
           Jason Melton
         </Menu.Item>
-        <Dropdown item text='Menu' position='right'>
+        <Dropdown item text='Menu'>
           <Dropdown.Menu >
             <Dropdown.Item>Projects</Dropdown.Item>
             <Dropdown.Item>About</Dropdown.Item>
