@@ -45,13 +45,32 @@ div.ui.segment > h1, div.ui.segment > h3 {
 }
 
 
-/* ABOUT SPECIFIC CSS */
+/* ABOUT SPECIFIC */
 
 .about-text{
     overflow: scroll;
     text-align: left;
     text-indent: 10%;
 }
+
+/* CONTACT SPECIFIC */
+
+.contact-info > h1, .contact-info > h3 {
+    font-family: monospace;
+    line-height: 0em;
+}
+
+.contact-info{
+    height: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: right;
+    text-indent: 1em;
+}
+
+
 
 
 
