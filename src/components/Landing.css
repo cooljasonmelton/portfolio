@@ -1,0 +1,38 @@
+div.ui.segment.landing{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+}
+
+div.ui.segment.landing-box{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+div.ui.segment > h1, div.ui.segment > h3 {
+    font-family: monospace;
+    width: max(20vw, 40vh)
+}
+
+@media screen and (max-width: 44em) {
+    div.ui.segment.landing{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    div.ui.segment.landing-box{
+        align-self: center;
+        padding: 10px;
+        margin: 0;
+    }
+
+}
