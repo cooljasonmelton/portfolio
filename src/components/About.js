@@ -11,7 +11,7 @@ function About() {
         <Image src={jasonpicstage} size='medium' circular />
       </Segment>
       <Segment className="landing-box"> 
-        <h1>About</h1>
+        <h1 className="about-title">About</h1>
         <div className="about-text">
           <p>
             With a background in philosophy and comedy, I've noticed software developing has a similar underpinning. Whether analyzing a theorem, writing a joke, or creating an app, it's all about looking at logical consequences, research, and error correction.
