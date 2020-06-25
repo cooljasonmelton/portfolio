@@ -1,5 +1,5 @@
 div.ui.segment.landing{
-    height: 80vh;
+    height: 89vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -8,6 +8,7 @@ div.ui.segment.landing{
 
 div.ui.segment.landing-box{
     height: 80%;
+    width: 20em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -15,24 +16,32 @@ div.ui.segment.landing-box{
     padding: 10px;
     margin: 20px;
 }
+img{
+    align-self: center;
+}
 
 div.ui.segment > h1, div.ui.segment > h3 {
     font-family: monospace;
-    width: max(20vw, 40vh)
 }
 
 @media screen and (max-width: 44em) {
     div.ui.segment.landing{
-        width: 100%;
         display: flex;
         justify-content: center;
         align-content: center;
         flex-direction: column;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+
     }
     div.ui.segment.landing-box{
         align-self: center;
         padding: 10px;
-        margin: 0;
+        width: 90vw;
+        display: flex;
     }
+
+
 
 }
