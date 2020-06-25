@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Image, Header } from 'semantic-ui-react'
+import { Segment, Image } from 'semantic-ui-react'
 import jasonpicstage from '../images/jasonpicstage.png'
 import './Landing.css'
 
@@ -12,7 +12,7 @@ function Landing() {
         <h3>I'm a software developer from Chicago, IL. I make websites. Want me to make you one?</h3>    
       </Segment>
       <Segment className="landing-box">
-        <Image src={jasonpicstage} size='medium' circular />
+        <Image src={jasonpicstage} circular />
       </Segment>
     </Segment>
   );
