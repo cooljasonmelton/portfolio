@@ -3,9 +3,6 @@
 
 <img src="https://github.com/cooljasonmelton/portfolio/blob/master/portfolio-demo.gif?raw=true" width=""/>
 
-## Contact: 
-* email: jason.melton2@gmail.com
-
 ## Built With​
 * React
 * BrowserRouter
@@ -25,7 +22,5 @@ npm install && npm start
 ## Author
 * <a href='https://github.com/cooljasonmelton'> Jason Melton</a>
 
-
-
-
-
+## Contact: 
+* email: jason.melton2@gmail.com
