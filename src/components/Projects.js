@@ -22,6 +22,12 @@ const projArr = [
     link: "https://github.com/cooljasonmelton/flat-note-front-end"
   },
   {
+    name: "Jason Melton's Portfolio Site", 
+    desc: "A simple React.js portfolio site for software developer, Jason Melton.",
+    img: portfolio,
+    link: "https://github.com/cooljasonmelton/portfolio"
+  },
+  {
     name: "This Or That", 
     desc: "A Javascript polling application that allows users to create two-option polls and vote on all user created polls.",
     img: thisorthat,
@@ -32,12 +38,6 @@ const projArr = [
     desc: "A Ruby on Rails social media application for celebrating pro-wrestling, allowing users to rate and comment on their favorite wrestlers and moves.",
     img: wrestler,
     link: "https://github.com/cooljasonmelton/mod-2-project-thats-my-favorite-wrestler"
-  },
-  {
-    name: "Jason Melton's Portfolio Site", 
-    desc: "A simple React.js portfolio site for software developer, Jason Melton.",
-    img: portfolio,
-    link: "https://github.com/cooljasonmelton/portfolio"
   },
 ]
 
@@ -53,12 +53,14 @@ const renderProjs = () => {
 
 const Projects = () => {
   return (
-    <Segment className="proj-segment">
-      <h1>Projects</h1>
-      <div className="proj-container">
-        {renderProjs()}
-      </div>
-    </Segment>
+    <div className="whole-container">
+      <Segment className="proj-segment">
+        <h1>Projects</h1>
+        <div className="proj-container">
+          {renderProjs()}
+        </div>
+      </Segment>
+    </div>
   );
 }
 

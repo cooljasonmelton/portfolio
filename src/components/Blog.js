@@ -37,12 +37,14 @@ const renderBlogs = () => {
 
 function Blog() {
   return (
+    <div className="whole-container">
     <Segment className="blog-segment">
       <h1>Blog </h1>
       <div className="blog-container">
         {renderBlogs()}
       </div>
     </Segment>
+  </div>
   );
 }
 
