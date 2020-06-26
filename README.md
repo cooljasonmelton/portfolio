@@ -1,6 +1,6 @@
-# Portfolio of Jason Melton
+# Jason Melton's Portfolio Site
 
-* a simple portfolio site for software developer, Jason Melton
+* A simple React.js portfolio site for software developer, Jason Melton.
 
 ## Contact: 
 
