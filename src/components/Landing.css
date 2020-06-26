@@ -39,9 +39,10 @@ div.ui.segment > h1, div.ui.segment > h3 {
 
     }
     div.ui.segment.landing-box{
-        padding: 10px;
+        margin: 10px 0;
         width: 100%;
         display: flex;
+        min-height: 40vh
     }
 }
 
@@ -163,8 +164,6 @@ a.item.neonLogo, a.active.item.neonLogo  {
     row-gap: 0em;
 }
 
-
-
 .actual-info > h2, .actual-info > h3{
     font-family: monospace;
     color: black;
@@ -184,7 +183,6 @@ a.item.neonLogo, a.active.item.neonLogo  {
 .actual-image:hover{
     opacity: 0.5;
 }
-
 
 @media screen and (max-width: 44em) {
     .proj-container{

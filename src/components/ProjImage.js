@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Image } from 'semantic-ui-react'
+import { Segment, Image, Icon } from 'semantic-ui-react'
 import './Landing.css'
 
 
@@ -32,9 +32,10 @@ class ProjImage extends React.Component {
                     target='_blank'
                 />
                 <div className='actual-info'>
-                    <h2>{name}</h2>
+                    <h2><a style={{color: "black"}} href={link}><Icon name='github'/></a>{name}</h2>
                     <h3 className="proj-desc">{desc}</h3>
-                    <h3><a href={link}>Visit GitHub</a></h3>
+                    <h1></h1>
+
                 </div>
             </Segment>
         )
