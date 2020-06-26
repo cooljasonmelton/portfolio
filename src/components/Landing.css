@@ -39,9 +39,10 @@ div.ui.segment > h1, div.ui.segment > h3 {
 
     }
     div.ui.segment.landing-box{
-        padding: 10px;
+        margin: 10px 0;
         width: 100%;
         display: flex;
+        min-height: 40vh
     }
 }
 
