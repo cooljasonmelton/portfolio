@@ -6,7 +6,7 @@
 
 
 
-<img src="" width=""/>
+<img src="https://github.com/cooljasonmelton/portfolio/blob/master/portfolio-demo.gif?raw=true" width=""/>
 
 
 
