@@ -10,9 +10,6 @@ import Blog from './components/Blog';
 import About from './components/About';
 import Projects from './components/Projects';
 
-
-
-
 class App extends React.Component{
   state = { hide: 500, show: 500, visible: true }
 
