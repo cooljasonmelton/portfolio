@@ -1,14 +1,10 @@
 # Jason Melton's Portfolio Site
 * A simple React.js portfolio site for software developer, Jason Melton.
 
-## Contact: 
-* email: jason.melton2@gmail.com
-
-
-
 <img src="https://github.com/cooljasonmelton/portfolio/blob/master/portfolio-demo.gif?raw=true" width=""/>
 
-
+## Contact: 
+* email: jason.melton2@gmail.com
 
 ## Built With​
 * React
