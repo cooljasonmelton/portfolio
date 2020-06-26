@@ -124,6 +124,7 @@ div.ui.segment > h1, div.ui.segment > h3 {
     align-items: center;
 }
 
+
 .proj-segment > h1{
     padding: 1em;
 }
@@ -133,19 +134,31 @@ div.ui.segment > h1, div.ui.segment > h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-
-
     column-gap: 2em;
     row-gap: 0em;
 }
-.proj-image{
-    place-content: stretch;
+
+
+
+.actual-info > h2, .actual-info > h3{
+    font-family: monospace;
+    color: black;
+    margin: 0.2em;
 }
 
-.proj-image:hover{
+.actual-info{
+    text-align: center;
+    padding: 1em;
+}
+
+.proj-desc{
+    text-align: left;
+    padding: 1em;
+}
+
+.actual-image:hover{
     opacity: 0.8;
 }
-
 
 
 @media screen and (max-width: 44em) {
