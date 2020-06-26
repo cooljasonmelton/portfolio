@@ -164,8 +164,6 @@ a.item.neonLogo, a.active.item.neonLogo  {
     row-gap: 0em;
 }
 
-
-
 .actual-info > h2, .actual-info > h3{
     font-family: monospace;
     color: black;
@@ -185,7 +183,6 @@ a.item.neonLogo, a.active.item.neonLogo  {
 .actual-image:hover{
     opacity: 0.5;
 }
-
 
 @media screen and (max-width: 44em) {
     .proj-container{
