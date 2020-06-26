@@ -106,7 +106,7 @@ div.ui.segment > h1, div.ui.segment > h3 {
 }
 
 .blog-image:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 44em) {
@@ -157,7 +157,7 @@ div.ui.segment > h1, div.ui.segment > h3 {
 }
 
 .actual-image:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 

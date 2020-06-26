@@ -8,7 +8,7 @@ import wrestler from '../images/projects-images/wrestler.png'
 import portfolio from '../images/projects-images/portfolio.png'
 import './Landing.css'
 
-const projHash = [
+const projArr = [
   {
     name: "Paperclips", 
     desc: "A React.js / Ruby on Rails journaling application that allows users to track word counts, writing analytics, and awards cute animal pics and videos for hitting goals.",
@@ -43,7 +43,7 @@ const projHash = [
 
 
 const renderProjs = () => {
-  return projHash.map(proj => {
+  return projArr.map(proj => {
     return (
       <ProjImage proj={proj}/>
     )
