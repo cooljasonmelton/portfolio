@@ -7,7 +7,7 @@ class Navbar extends Component {
   constructor(){
     super();
     this.state = { 
-      activeItem: 'home',
+      activeItem: 'jason melton',
       neonLogo: false
     }
   }
