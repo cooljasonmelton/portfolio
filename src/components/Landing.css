@@ -48,6 +48,7 @@ div.ui.segment > h1, div.ui.segment > h3 {
 
 
 a.item.neonLogo, a.active.item.neonLogo  {
+    font-weight: bold;
     text-transform: uppercase;
     text-shadow: 
         10px 10px 3px #a1a8d4, 
@@ -57,12 +58,6 @@ a.item.neonLogo, a.active.item.neonLogo  {
     overflow: hidden;
 
 }
-
-
-
-
-
-
 
 
 /* ABOUT SPECIFIC */

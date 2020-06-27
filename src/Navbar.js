@@ -48,21 +48,25 @@ class Navbar extends Component {
 
         <Menu.Menu position='right'>
           <Menu.Item 
+            className={neonLogo ? "neonLogo" : null}
             name='projects'
             active={activeItem === 'projects'}
             onClick={this.handleItemClick}
           />
           <Menu.Item 
+            className={neonLogo ? "neonLogo" : null}
             name='about'
             active={activeItem === 'about'}
             onClick={this.handleItemClick}
           />
           <Menu.Item 
+            className={neonLogo ? "neonLogo" : null}
             name='contact'
             active={activeItem === 'contact'}
             onClick={this.handleItemClick}
           />
             <Menu.Item
+              className={neonLogo ? "neonLogo" : null}
               name='blog'
               active={activeItem === 'blog'}
               onClick={this.handleItemClick}
