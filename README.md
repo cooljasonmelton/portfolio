@@ -1,8 +1,14 @@
+<style>
+  .markdown-body table td {
+    font-size: 12px !important;
+  }
+</style>
+
 # Jason Melton's Portfolio Site
 * A simple React.js portfolio site for software developer, Jason Melton.
 
 <img src="https://github.com/cooljasonmelton/portfolio/blob/master/portfolio-demo.gif?raw=true" width=""/>
-<a href="http://www.jasonmelton.site/"> <font size="+1">Link to Deployed Website</font></a>
+<a href="http://www.jasonmelton.site/"> Link to Deployed Website</font></a>
 
 ## Built With​
 * React
