@@ -9,7 +9,7 @@
 
 ## Built With​
 * React
-* BrowserRouter
+* React Router
 * Semantic UI React
 ​
 ## Installation Instructions
