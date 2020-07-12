@@ -21,7 +21,7 @@ git clone git@github.com:cooljasonmelton/portfolio.git
 ```bash
 npm install && npm start
 ```
-4. Navigate browser to window opened by npm, typically: <a href='http://localhost:3000'> http://localhost:3000/ </a> 
+3. Navigate browser to window opened by npm, typically: <a href='http://localhost:3000'> http://localhost:3000/ </a> 
 
 ## Author
 * <a href='https://github.com/cooljasonmelton'> Jason Melton</a>
