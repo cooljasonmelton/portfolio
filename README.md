@@ -2,7 +2,7 @@
 * A simple React.js portfolio site for software developer, Jason Melton.
 
 <img src="https://github.com/cooljasonmelton/portfolio/blob/master/portfolio-demo.gif?raw=true" width=""/>
-<a href="http://www.jasonmelton.site/" style="font-size:20px;"> Link to Deployed Website </a>
+<a href="http://www.jasonmelton.site/"> <font size="+1">Link to Deployed Website</font></a>
 
 ## Built With​
 * React
