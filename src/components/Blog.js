@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Image, Icon } from 'semantic-ui-react'
+import { Segment, Image } from 'semantic-ui-react'
 import blog1 from '../images/blog-images/blog1.png'
 import blog2 from '../images/blog-images/blog2.png'
 import blog3 from '../images/blog-images/blog3.png'
