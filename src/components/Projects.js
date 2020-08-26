@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjImage from './ProjImage'
-import { Segment, Image, Icon } from 'semantic-ui-react'
+import { Segment } from 'semantic-ui-react'
 import flatnote from '../images/projects-images/flatnote.png'
 import paperclips from '../images/projects-images/paperclips.png'
 import thisorthat from '../images/projects-images/thisorthat.png'
@@ -45,7 +45,7 @@ const projArr = [
 const renderProjs = () => {
   return projArr.map(proj => {
     return (
-      <ProjImage proj={proj}/>
+      <ProjImage key={proj.name} proj={proj}/>
     )
   
   }) 

@@ -28,14 +28,12 @@ class ProjImage extends React.Component {
                     href={link}
                     src={img}
                     as='a'
-                    size='fluid'
+                    size='large'
                     target='_blank'
                 />
                 <div className='actual-info'>
                     <h2><a style={{color: "black"}} href={link}><Icon name='github'/></a>{name}</h2>
                     <h3 className="proj-desc">{desc}</h3>
-                    <h1></h1>
-
                 </div>
             </Segment>
         )

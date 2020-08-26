@@ -1,5 +1,5 @@
 import React from 'react'
-import { Dropdown, Menu, Segment } from 'semantic-ui-react'
+import { Dropdown, Menu } from 'semantic-ui-react'
 import { withRouter } from 'react-router-dom'
 
 
