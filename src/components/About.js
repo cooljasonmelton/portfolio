@@ -4,7 +4,7 @@ import jasonpicstage from '../images/jasonpic.jpg'
 import './Landing.css'
 
 
-function About() {
+const About = () => {
   return (
     <Segment className="landing">
       <Segment className="landing-box">
