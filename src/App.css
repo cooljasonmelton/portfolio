@@ -2,8 +2,6 @@
     font-family: monospace;
 }
 
-
-
 div.ui.pointing.secondary.menu{
     font-size: 1.5rem;
 }
@@ -15,12 +13,8 @@ div.ui.pointing.secondary.menu{
 @media screen and (max-width: 44em) {
     .nav{
         display: none;
-
     }
     .nav-small{
         display: block;
-
     }
-
-
 }
