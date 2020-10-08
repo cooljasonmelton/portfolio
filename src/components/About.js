@@ -1,14 +1,21 @@
 import React from 'react';
-import { Segment, Image } from 'semantic-ui-react'
-import jasonpicstage from '../images/jasonpic.jpg'
-import './Landing.css'
 
+// semantic ui
+import { Segment, Image, Loader } from 'semantic-ui-react'
+
+// images
+import jasonpicstage from '../images/jasonpic.jpg'
+
+// styling
+import './Landing.css'
 
 const About = () => {
   return (
     <Segment className="landing">
       <Segment className="landing-box">
-        <Image src={jasonpicstage} size='medium' circular />
+        {jasonpicstage ? 
+          <Image src={jasonpicstage} size='medium' circular/>
+            : <Loader/> }
       </Segment>
       <Segment className="landing-box"> 
         <h1 className="about-title">About</h1>
